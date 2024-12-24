@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/pendaftaran.css">
+    <title>Formulir Pendaftaran Anggota Klub Sepak Bola</title>
+</head>
+<body>
+    <section id="registration">
+        <article>
+            <h2>Formulir Pendaftaran Anggota Klub Sepak Bola</h2>
+            <p>Isi formulir berikut untuk mendaftar sebagai anggota Klub Sepak Bola. Pastikan semua informasi sudah benar sebelum mengirimkan formulir.</p>
+            <form action="pendaftaran.php" method="POST">
+                <div class="form-group">
+                    <label for="full-name">Nama Lengkap</label>
+                    <input type="text" id="full-name" name="full-name" required placeholder="Masukkan nama lengkap">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Masukkan email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon</label>
+                    <input type="text" id="phone" name="phone" required placeholder="Masukkan nomor telepon">
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Posisi di Tim</label>
+                    <select id="position" name="position" required>
+                        <option value="">Pilih Posisi</option>
+                        <option value="Striker">Striker</option>
+                        <option value="Midfielder">Midfielder</option>
+                        <option value="Defender">Defender</option>
+                        <option value="Goalkeeper">Goalkeeper</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Jenis Kelamin</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Pilih Jenis Kelamin</option>
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Tanggal Lahir</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Daftar Sebagai Anggota</button>
+            </form>
+        </article>
+    </section>
+</body>
+</html>

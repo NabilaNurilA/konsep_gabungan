@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #1b5e20; /* Green similar to football theme */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1b5e20; /* Green background */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #1b5e20;
+    color: #ffffff;
+}
+
+.btn-edit {
+    background-color: #ff9800;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #fb8c00;
+}
+
+.btn-delete {
+    background-color: #d32f2f;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+    background-color: #c62828;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-link {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #388e3c;
+}
+
+.page-link.active {
+    background-color: #1b5e20;
+}
+
+.page-link.prev,
+.page-link.next {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.page-link.prev:hover,
+.page-link.next:hover {
+    background-color: #388e3c;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.table-container {
+    width: 70%;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.search-form button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #1b5e20;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #388e3c;
+}
+
+.btn-reset {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.btn-reset:hover {
+    color: #1b5e20;
+}
+
+.table-container table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
